@@ -14,6 +14,7 @@ input_csv = "C:\\Users\\mamidala.venkate\\Downloads\\validated_data1.csv" # Chan
 
 # Read the CSV file into a DataFrame
 df = pd.read_csv(input_csv)
+display(df)
 
 # Check if the "Unique Identification Number" column exists
 if "Unique Identification Number" not in df.columns:
